@@ -9,6 +9,6 @@ public class bkj27866 {
         String str = br.readLine().trim();
         int i = Integer.parseInt(br.readLine());
 
-        System.out.print(str.substring(i - 1, i));
+        System.out.println(str.substring(i - 1, i));
     }
 }
