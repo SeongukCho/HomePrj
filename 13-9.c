@@ -15,16 +15,16 @@ void main()
 
 	struct student* s = malloc(sizeof(struct student) * cnt);
 
-	for(int i = 0; i<cnt; i++)
+	for(int i = 0; i < cnt; i++)
 	{
 		printf("이름과 나이 입력 : ");
-		scanf("%s %d", s[i].name, &s[i].age);
+		scanf("%s %d", (s+i)->name, &(s+i)->age);
 	}
 
 	printf("\n\n-- 학생 명단 --\n");
 	for(int i = 0; i<cnt; i++)
 	{
-		printf("이름:%s , 나이:%d\n", s[i].name , s[i].age);
+		printf("이름:%s , 나이:%d\n", (s+i)->name , (s+i)->age);
 	}
 
 	free(s);
