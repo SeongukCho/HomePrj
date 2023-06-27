@@ -1,5 +1,4 @@
 public class prog181924 {
-    class Solution {
         public int[] solution(int[] arr, int[][] queries) {
             int[] answer = new int[arr.length];
             int tmp;
@@ -15,4 +14,4 @@ public class prog181924 {
             return answer;
         }
     }
-}
+
