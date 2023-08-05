@@ -10,6 +10,7 @@ public class prog181902 {
                 }
             }
         }
+        int abc = 1;
         for (int i = 0; i < my_string.length(); i++) {
             for (int j = 0; j < 26; j++) {
                 if ((int) my_string.charAt(i) == 97 + j) {
