@@ -6,6 +6,7 @@ public class prog181895 {
         int[] answer = new int[length];
 
         int count = 0;
+        int a;
 
         for(int i = intervals[0][0]; i <= intervals[0][1]; i++){
             answer[count++] = arr[i];
@@ -14,6 +15,8 @@ public class prog181895 {
         for(int i = intervals[1][0]; i <= intervals[1][1]; i++){
             answer[count++] = arr[i];
         }
+
+
         return answer;
     }
 }
