@@ -11,6 +11,6 @@ public class prog181887 {
                 evensum += num_list[i];
             }
         }
-        return evensum > oddsum ? evensum : oddsum;
+        return Math.max(evensum, oddsum);
     }
 }
