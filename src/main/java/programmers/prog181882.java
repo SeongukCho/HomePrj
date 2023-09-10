@@ -1,3 +1,5 @@
+package programmers;
+
 public class prog181882 {
     public int[] solution(int[] arr) {
         int[] answer = new int[arr.length];
