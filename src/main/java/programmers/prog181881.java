@@ -4,7 +4,7 @@ public class prog181881 {
         public int solution(int[] arr) {
             int answer = 0;
             int count = 0;
-            int[] beforeArr = new int[arr.length];
+            int[] beforeArr;
             while(count != arr.length){
                 count = 0;
                 beforeArr = arr.clone();
